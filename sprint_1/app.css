@@ -1,4 +1,33 @@
-.content {
-	color: green;
-	font-size: 24px;
+.container {
+  max-width: 1200px;
+  background-color: black;
+  padding: 20px;
+}
+
+.base_row {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.row_1 {
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+.row_2 {
+  background-color: orange;
+}
+
+.base_cell {
+  height: 20px;
+  margin: 20px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
 }
