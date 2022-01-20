@@ -1,27 +1,53 @@
 .container {
   max-width: 1200px;
-  background-color: black;
+}
+
+.cell {
+  height: 20px;
+}
+
+.full_padding {
   padding: 20px;
 }
 
-.base_row {
-  display: flex;
-  flex-direction: row;
-  height: 60px;
-}
-
-.row_1 {
-  background-color: gray;
+.margin_bottom {
   margin-bottom: 20px;
 }
-
-.row_2 {
-  background-color: orange;
+.margin_right {
+  margin-right: 20px;
 }
 
-.base_cell {
-  height: 20px;
-  margin: 20px;
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.length_1 {
+  flex-grow: 1;
+}
+.length_2 {
+  flex-grow: 2;
+}
+.length_3 {
+  flex-grow: 3;
+}
+.length_4 {
+  flex-grow: 4;
+}
+.length_5 {
+  flex-grow: 5;
+}
+
+.half {
+  flex-basis: 48.5%;
+}
+
+.full {
+  flex-basis: 100%;
 }
 
 .red {
@@ -30,4 +56,24 @@
 
 .yellow {
   background-color: yellow;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.turquoise {
+  background-color: turquoise;
 }
